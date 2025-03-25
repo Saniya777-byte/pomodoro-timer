@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:#fad0c4;
+    padding: 40px;
+    background: url('https://wallpapers.com/images/hd/aesthetic-landscape-starry-sky-g2yflcmcq652mx4r.jpg') no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+}
+#timer {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+button {
+    padding: 8px 16px;
+    margin: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#start { background: green; color: #fff; }
+#pause { background: orange; color: #fff; }
+#reset { background: red; color: #fff; }
